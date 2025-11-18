@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/index.js"
+    "dev": "node src/index.js",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
 }
